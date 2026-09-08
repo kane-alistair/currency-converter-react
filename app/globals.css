@@ -12,11 +12,12 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+input,
+select {
+  background: white;
+  border-radius: 0.5rem;
+  color: #171717;
+  border: 1px solid #d1d5db;
 }
 
 body {
