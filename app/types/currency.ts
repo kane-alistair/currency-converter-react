@@ -31,3 +31,10 @@ export interface ConversionOptions {
     to: string,
     amount: number
 }
+
+export interface CurrencyFormState {
+    amount: number,
+    fromCurrency: string,
+    toCurrency: string,
+    convertedAmount: number
+}
