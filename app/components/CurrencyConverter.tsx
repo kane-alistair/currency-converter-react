@@ -39,8 +39,6 @@ export const CurrencyConverter = ({ currencies }: CurrencyConverterProps) => {
         }))
     };
 
-
-
     return (
 
         <div className="flex flex-col flex-1 items-center justify-center bg-zinc-200 font-sans ">
